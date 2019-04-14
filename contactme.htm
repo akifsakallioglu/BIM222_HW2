@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+  <head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Contact Me </title>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<style>
+      body {
+    background: #3E4649;
+    color: #f7f7f7;
+    font-family: 'Montserrat', sans-serif;
+}
+h1,
+h2 {
+    font-weight: bold;
+}
+p {
+    font-size: 16px;
+    color: #cdcdcd;
+}
+.navbar {
+    margin-bottom: 0;
+}
+.jumbotron {
+    background: #27A967;
+    color: white;
+    text-align: center;
+}
+.jumbotron p {
+    color: white;
+    font-size: 26px;
+}
+.navbar-inverse {
+    background: #2E2F31;
+    border: 0;
+}
+.dropdown-menu {
+    background: #2E2F31;
+    border-radius: 0;
+    border: 0;
+}
+.navbar-inverse .navbar-nav li a {
+    color: #f7f7f7;
+    font-size: 16px;
+}
+.navbar-inverse .navbar-nav li a:hover {
+    background: #27A967;
+}
+.navbar-inverse .navbar-nav .dropdown-menu li a:hover {
+    background: #2C463C;
+}
+.dropdown-menu li a {
+    padding: 10px;
+}
+.btn-primary {
+    color: #fff;
+    background-color: transparent;
+    border-color: white;
+    margin-bottom: 5px;
+}
+.btn-primary:hover {
+    color: #27A967;
+    background-color: white;
+    border-color: white;
+}
+.glyphicon-large {
+    font-size: 100px;
+}
+.call-to-action {
+    text-align: center;
+}
+.call-to-action p {
+    margin-bottom: 30px;
+    font-family: sans-serif;
+}
+    </style>
+</head>
+<body>
+	<nav class="navbar navbar-inverse navbar-static-top">
+  <div class="container">
+    	<div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.htm"><span class="glyphicon glyphicon-off" aria-hidden="true"></span> <big> Homepage </big></a>
+    </div>
+	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">My Favourites<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="films.htm">Films</a></li>
+            <li><a href="books.htm">Books</a></li>
+            <li><a href="musics.htm">Musics</a></li>
+          </ul>
+        </li>
+        <li><a href="usefullinks.htm">Useful Links</a></li>
+        <li><a href="contactme.htm">Contact Me</a></li>
+        <li><a href="registration.htm">Register</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+	<br><br><br>
+
+
+
+<div class="container" align="center">
+  <form class="form-inline">
+    <div class="form-group">
+      <label for="Name, Surname">Name, Surname:</label>
+      <input type="Name, Surname" class="form-control" id="Name, Surname" placeholder="Enter name and surname">
+    </div>
+    <br><br>
+    <div class="form-group">
+      <label for="E-mail">&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;E-mail:</label>
+      <input type="E-mail" class="form-control" id="E-mail" placeholder="Enter e-mail">
+    </div>
+    <br><br>
+    <div class="form-group">
+      <label for="Telephone">&ensp;&ensp;&ensp;&ensp;&ensp;Telephone:</label>
+      <input type="Telephone" class="form-control" id="Telephone" placeholder="Max length is 11" maxlength="11">
+    </div>
+    <br><br>
+    <div class="form-group">
+      <label for="Issue">&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Issue:</label>
+      <input type="Issue" class="form-control" id="Issue" placeholder="Enter issue" >
+    </div>
+    <br><br>
+  </form>
+</div>
+
+
+	<div align="center">
+		
+	    <textarea name="message" rows="10" cols="60" placeholder="If you have a message you want to send to me, write it here." style="color:#000000"></textarea>
+	        <br><br>
+	        <button type="button" class="btn btn-success" onclick="myFunction()">Send</button><script>function myFunction() {alert("Your message is sent");}</script>
+		</form>	
+	</div>
+	<br>
+	<p align="center"><big><strong>OR</strong></big></p>
+	<p align="center">If you want to contact me, please click to the adress below:
+	<br><br>
+	<a href = "mailto:akif.sakallioglu@gmail.com">Akif Sakallıoğlu</a>
+	<br><br>
+	<a href = "index.htm"> <img src="home.png" width="4%" height="4%"> </a>
+	<br><br>
+	<a href="https://www.facebook.com/akif.sakallioglu"><img src="facebook.png"width="2%"height="2%"></a>
+	&ensp;&ensp;
+	<a href="mailto:akif.sakallioglu@gmail.com"><img src="gmail.png"width="2%"height="2%"></a>
+	&ensp;&ensp;
+	<a href="https://www.youtube.com/channel/UCzYNTRXhNgXF68ASH-h7cRQ"><img src="youtube.png"width="3%"height="3%"></a>
+	</p>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	</body>
+</html>
