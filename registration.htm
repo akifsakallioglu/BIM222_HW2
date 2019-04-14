@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en">
+  <head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Register </title>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<style>
+      body {
+    background: #3E4649;
+    color: #f7f7f7;
+    font-family: 'Montserrat', sans-serif;
+}
+h1,
+h2 {
+    font-weight: bold;
+}
+p {
+    font-size: 16px;
+    color: #cdcdcd;
+}
+.navbar {
+    margin-bottom: 0;
+}
+.jumbotron {
+    background: #27A967;
+    color: white;
+    text-align: center;
+}
+.jumbotron p {
+    color: white;
+    font-size: 26px;
+}
+.navbar-inverse {
+    background: #2E2F31;
+    border: 0;
+}
+.dropdown-menu {
+    background: #2E2F31;
+    border-radius: 0;
+    border: 0;
+}
+.navbar-inverse .navbar-nav li a {
+    color: #f7f7f7;
+    font-size: 16px;
+}
+.navbar-inverse .navbar-nav li a:hover {
+    background: #27A967;
+}
+.navbar-inverse .navbar-nav .dropdown-menu li a:hover {
+    background: #2C463C;
+}
+.dropdown-menu li a {
+    padding: 10px;
+}
+.btn-primary {
+    color: #fff;
+    background-color: transparent;
+    border-color: white;
+    margin-bottom: 5px;
+}
+.btn-primary:hover {
+    color: #27A967;
+    background-color: white;
+    border-color: white;
+}
+.glyphicon-large {
+    font-size: 100px;
+}
+.call-to-action {
+    text-align: center;
+}
+.call-to-action p {
+    margin-bottom: 30px;
+    font-family: sans-serif;
+}
+    </style>
+</head>
+<body>
+	<nav class="navbar navbar-inverse navbar-static-top">
+  <div class="container">
+    	<div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.htm"><span class="glyphicon glyphicon-off" aria-hidden="true"></span> <big> Homepage </big></a>
+    </div>
+	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">My Favourites<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="films.htm">Films</a></li>
+            <li><a href="books.htm">Books</a></li>
+            <li><a href="musics.htm">Musics</a></li>
+          </ul>
+        </li>
+        <li><a href="usefullinks.htm">Useful Links</a></li>
+        <li><a href="contactme.htm">Contact Me</a></li>
+        <li><a href="registration.htm">Register</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<br><br>
+
+
+
+
+	<div class="container" align="center">
+  <form class="form-inline">
+    <div class="form-group">
+      <label for="name">Name (Middle Name) Surname:</label>
+      <input type="name" class="form-control" id="name" placeholder="Enter name and surname">
+    </div>
+    <br><br>
+    <div class="form-group">
+      <label for="password">&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Password:</label>
+      <input type="password" class="form-control" id="password" placeholder="Enter password">
+    </div>
+    <br><br>
+    <div class="form-group">
+      <label for="E-mail">&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;E-mail:</label>
+      <input type="E-mail" class="form-control" id="E-mail" placeholder="Enter e-mail">
+    </div>
+    <br><br>
+    <div class="form-group">
+      <label for="DateofBirth">&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Date of Birth:</label>
+      <input type="Date" class="form-control" id="DateofBirth" placeholder="Enter your birthday">
+    </div>
+<br><br>
+<div class="form-group">
+  <label for="sel1">&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Department:</label>
+  <select class="form-control" id="sel1">
+    <option>Computer Engineering</option>
+    <option>Environmental Engineering</option>
+    <option>Electrical and Electronic Engineering</option>
+    <option>Industrial Engineering</option>
+    <option>Civil Engineering</option>
+    <option>Mechanical Engineering</option>
+  </select>
+</div>
+<br><br>
+<div class="form-group">
+  <label for="sel1">&ensp;&ensp;&ensp;&ensp;Gender:</label>
+  <select class="form-control" id="sel1">
+    <option>Male</option>
+    <option>Female</option>
+  </select>
+</div>
+<br><br>
+
+ <div class="form-group">
+  <label for="aboutme">About me:</label>
+  <textarea class="form-control" rows="5" id="comment"></textarea>
+</div>
+<br>
+<br>
+<form class="md-form">
+  <div class="file-field">
+    <div class="btn btn-primary btn-sm float-left">
+      <span>Upload Your Photo</span>
+      <input type="file">
+    </div>
+    <div class="file-path-wrapper">
+    </div>
+  </div>
+</form>
+			<form>
+				<h2>Mark Your Interests</h2>
+				<div class="form-check">
+					<label>
+						<input type="checkbox" name="check"> <span class="label-text">Car</span>
+					</label>
+				</div>
+				<div class="form-check">
+					<label>
+						<input type="checkbox" name="check"> <span class="label-text">Games</span>
+					</label>
+				</div>
+				<div class="form-check">
+					<label>
+						<input type="checkbox" name="check"> <span class="label-text">Music</span>
+					</label>
+				</div>
+				<div class="form-check">
+					<label>
+						<input type="checkbox" name="check"> <span class="label-text">Science</span>
+					</label>
+				</div>
+				<div class="form-check">
+					<label>
+						<input type="checkbox" name="check"> <span class="label-text">Sport</span>
+					</label>
+				</div>
+				<div class="form-check">
+					<label>
+						<input type="checkbox" name="check"> <span class="label-text">Movies</span>
+					</label>
+				</div>
+			</form>
+<br>
+<button type="button" class="btn btn-success" onclick="myFunction()">Submit</button><script>function myFunction() {alert("Thanks for registration!");}</script>
+		<br><br>
+		<button type="button" class="btn btn-success" onclick="window.location.href='registration.htm'">Reset</button>
+		<br><br>
+		<a href = "index.htm"> <img src="home.png" width="4%" height="4%"> </a>
+</div>
+</form>
+	</div>
+		<br><br>
+		</div>
+ </form>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	</body>
+</html>
